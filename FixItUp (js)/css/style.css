@@ -6,6 +6,7 @@
 
 .navbar {
     background-color: rgb(57, 77, 128);
+    z-index: 1050;
 }
 
 
