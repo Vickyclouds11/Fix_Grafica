@@ -1,1 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arsenal", serif;
+}
+
+
+.navbar {
+    background-color: rgb(57, 77, 128); 
+}
+
+.navbar-brand .brand-title {
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    display: inline-block;  
+    vertical-align: middle;
+    margin-left: 1%;
+    line-height: 60px; 
+    font-size: 40px; 
+    font-weight: bold; 
+    padding-top: 8%;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(185, 192, 212); 
+}
+
+.navbar-toggler {
+    border-color: rgb(57, 77, 128);
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.main-header a:hover {
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    #main-header {
+        flex-direction: column; 
+        height: auto; 
+        padding: 9px; 
+    }
+
+    .main-header a {
+        padding: 5px 0; 
+    }
+}
+
+.navbar-nav .nav-link {
+    padding: 0 15px; 
+    font-weight: 700;
+}
+
+.navbar-brand img, .navbar-brand .brand-title {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+
+main {
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card {
+    background-color: rgb(170, 190, 209);
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: 1.1rem;
+}
+
+.card h2 {
+    font-family: "Arsenal", serif;
+    font-size: 2rem;
+    color: rgb(57, 77, 128);
+    font-weight: bold;
+}
+
+.card .btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.card .btn-primary {
+    background-color: rgb(61, 76, 90);
+    border: none;
+    color: white;
+}
+
+.card .btn-primary:hover {
+    background-color: rgb(41, 56, 70);
+}
+
+.card .btn-secondary {
+    background-color: rgb(170, 173, 175);
+    border: none;
+    color: black;
+}
+
+.card .btn-secondary:hover {
+    background-color: rgb(140, 143, 145);
+}
+
+#consumidores {
+    font-family: "Arsenal", serif;
+    font-weight: bold;
+    margin-top: 3%;
+    font-style: italic;
+    text-align: center;
+}
+
+form {
+    color: black;
+    font-weight: 400;
+    font-size: large;
+    background-color: rgb(236, 238, 243);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+form .btn-primary {
+    background-color: rgb(57, 77, 128); 
+    border: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+form .btn-primary:hover {
+    background-color: rgb(145, 164, 182);
+}
+
+
+#main-footer {
+    background-color: rgb(37, 52, 90);
+    margin-top: 1%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-footer h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+
+    .card h2 {
+        font-size: 1.5rem;
+    }
+
+    .card .btn {
+        font-size: 1rem;
+    }
+}
+
+
 
