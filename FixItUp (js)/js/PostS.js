@@ -27,12 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(response => response.json()) 
       .then(data => {
         console.log(data);  
-
+        window.location.href = "ServExitos.html";
       })
       .catch(error => console.error('Error:', error));
     };
   
     document.getElementById('myForm').addEventListener('submit', handleSubmit);
   });
-  
   
