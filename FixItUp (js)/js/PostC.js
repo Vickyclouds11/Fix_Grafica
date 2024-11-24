@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const NumInput = document.getElementById('num');
-    const NomInput = document.getElementById('nom');
-    const ApeInput = document.getElementById('ape');
-    const DirInput = document.getElementById('dir')
-    const EmailInput = document.getElementById('email');
-    const ContInput = document.getElementById('cont');
+    const NumInput = document.getElementById('identificacion');
+    const NomInput = document.getElementById('nombre');
+    const ApeInput = document.getElementById('apellido');
+    const DirInput = document.getElementById('direccion')
+    const EmailInput = document.getElementById('correo');
+    const ContInput = document.getElementById('password');
     const submitBtn = document.getElementById('submitBtn');
   
   
@@ -29,19 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(response => response.json()) 
       .then(data => {
         console.log(data);  
-  
-        
-        const tabla = document.getElementById('tabla');
-        const nuevaFila = document.createElement('tr');
-        nuevaFila.innerHTML = `
-          <p>Usuario registrado correctamente</p>
-        `;
-        tabla.appendChild(nuevaFila);
+        window.location.href = "RegExitos.html";
       })
       .catch(error => console.error('Error:', error));
     };
   
     document.getElementById('myForm').addEventListener('submit', handleSubmit);
   });
-  
-  
