@@ -57,42 +57,41 @@
         </div>
     </nav>
 </header>
-    <div class="calendar">
-        <div class="calendar__info">
-            <div class="calendar__prev" id="prev-month">&#9664;</div>
-            <div class="calendar__month" id="month"></div>
-            <div class="calendar__year" id="year"></div>
-            <div class="calendar__next" id="next-month">&#9654;</div>
-        </div>
-    
-        <div class="calendar__week">
-            <div class="calendar__day calendar__item">Mon</div>
-            <div class="calendar__day calendar__item">Tue</div>
-            <div class="calendar__day calendar__item">Wed</div>
-            <div class="calendar__day calendar__item">Thu</div>
-            <div class="calendar__day calendar__item">Fri</div>
-            <div class="calendar__day calendar__item">Sat</div>
-            <div class="calendar__day calendar__item">Sun</div>
-        </div>
-    
-        <div class="calendar__dates" id="dates"></div>
-    </div>
-    
-    <div id="eventModal" class="modal">
-        <div class="modal-content">
-            <span class="close" id="closeModal">&times;</span>
-            <h2 id="eventTitle"></h2>
-            <p><strong>Fecha:</strong> <span id="eventDate"></span></p>
-            <p><strong>Hora:</strong> <span id="eventTime"></span></p>
-            <p><strong>Ubicación:</strong> <span id="eventLocation"></span></p>
-        </div>
+<div class="calendar">
+    <div class="calendar__info">
+        <div class="calendar__prev" id="prev-month">&#9664;</div>
+        <div class="calendar__month" id="month"></div>
+        <div class="calendar__year" id="year"></div>
+        <div class="calendar__next" id="next-month">&#9654;</div>
     </div>
 
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="../js/misservicios.js"></script>
+    <div class="calendar__week">
+        <div class="calendar__day calendar__item">Mon</div>
+        <div class="calendar__day calendar__item">Tue</div>
+        <div class="calendar__day calendar__item">Wed</div>
+        <div class="calendar__day calendar__item">Thu</div>
+        <div class="calendar__day calendar__item">Fri</div>
+        <div class="calendar__day calendar__item">Sat</div>
+        <div class="calendar__day calendar__item">Sun</div>
+    </div>
+
+    <div class="calendar__dates" id="dates"></div>
+</div>
+
+<div id="eventModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2 id="eventTitle"></h2>
+        <p><strong>Fecha:</strong> <span id="eventDate"></span></p>
+        <p><strong>Hora:</strong> <span id="eventTime"></span></p>
+        <p><strong>Ubicación:</strong> <span id="eventLocation"></span></p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./js/eventos.js"></script>
 </body>
 <footer id="main-footer" class="mt-5">
     <div class="text-center p-3">
